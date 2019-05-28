@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[hexo的next主题的最新优化_3]]></title>
+    <url>%2F2019%2Fhexo%E7%9A%84next%E4%B8%BB%E9%A2%98%E7%9A%84%E6%9C%80%E6%96%B0%E4%BC%98%E5%8C%96-3%2F</url>
+    <content type="text"><![CDATA[前言在hexo的next主题的最新优化_1中和hexo的next主题的最新优化_2介绍了一些简单点的操作，希望对你们有所帮助，如果实在看不懂，可以扫一扫文章最后的QQ群二维码，有什么问题可以私聊我呦！好的废话就不多说了。我们开始吧！ 主题优化_3设置动态背景更改的位置： 提示：这里的设置和老版的next主题有些不同。 next主题常见动态背景样式有canvas_nest、three_waves、canvas_lines、canvas_sphere等 canvas_nest如下图所示 three_waves、canvas_lines、canvas_sphere这三种效果可以自己尝试 开启canvas_nest更改的内容： 第一步：打开Git Bash Here进入自己文件夹下/themes/next文件夹下 1$ cd /themes/next 第二步：下载安装 canvas_nest module 执行 这是在主题文件夹下进行的操作 1$ git clone https://github.com/theme-next/theme-next-canvas-nest source/lib/canvas-nest ​ 提示:执行完命令后会在 /themes/next/source/lib查看会看到canvas_nest文件夹。 第三步：在/themes/next/_config.yml设置 开启three_waves、canvas_lines、canvas_sphere更改的内容： 第一步：打开Git Bash Here进入自己文件夹下/themes/next文件夹下 1$ cd /themes/next 第二步：下载安装 canvas_nest module 执行 这是在主题文件夹下进行的操作 1$ git clone https://github.com/theme-next/theme-next-canvas-nest source/lib/three ​ 提示:执行完命令后会在 /themes/next/source/lib查看会看到three文件夹。 第三步：在/themes/next/_config.yml设置 添加进度条更改的位置： 在next主题中提供了很多种加载方式，这就根据个人喜欢了，以下图效果为例 更改的内容： 第一步：打开Git Bash Here进入自己文件夹下/themes/next文件夹下 1$ cd /themes/next 第二步：下载安装 Progress module 执行 1$ git clone https://github.com/theme-next/theme-next-pace source/lib/pace 第三步：在/themes/next/_config.yml设置 设置左右上角的fork github更改的位置： 更改的内容： 提示：左上角样式选择点这里,右上角样式选择点这里 第一步：找到喜欢的样式复制代码 第二步：修改文件 第三步：更改粘贴代码的内容： 搜索功能更改的位置： 更改的内容： 1，安装hexo-generator-searchdb，在站点的根目录下执行以下命令： 1npm install hexo-generator-searchdb --save 2，网站配置文件config 12345search: path: search.xml field: post format: html limit: 10000 3，主题配置文件config： 123# Local searchlocal_search: enable: true 增加点击爆炸效果更改的位置： 更改的内容： fireworks.js文件链接： ​ 链接：https://pan.baidu.com/s/1wcbQpO0QSKV35k3vCVFvYg​ 提取码：pry5 1，将上方的文件复制到 —-》themes\next\source\js路径下替换原来的文件 2，修改如下图片路径下的文件添加如下内容 &lt;body&gt;标签最后添加 12345&#123;% if theme.fireworks %&#125;&lt;canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" &gt;&lt;/canvas&gt;&lt;script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"&gt;&lt;/script&gt;&lt;script type="text/javascript" src="/js/fireworks.js"&gt;&lt;/script&gt;&#123;% endif %&#125; 3，修改主题配置文件 [更多优化点这里]]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>导航</tag>
+        <tag>分类</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[hexo的next主题的最新优化_2]]></title>
     <url>%2F2019%2Fhexo%E7%9A%84next%E4%B8%BB%E9%A2%98%E7%9A%84%E6%9C%80%E6%96%B0%E4%BC%98%E5%8C%96-2%2F</url>
     <content type="text"><![CDATA[前言在hexo的next主题的最新优化_1中介绍了一些简单点的操作，希望对你们有所帮助，如果实在看不懂，可以扫一扫文章最后的QQ群二维码，有什么问题可以私聊我呦！好的废话就不多说了。我们开始吧！ 主题优化_2侧边社交链接 提示：这个是与老版的hexo的next主题配置有区别的 更改的地方： 更改内容：修改的是blog文件夹下next文件下的config.xml文件 更改链接对应的的图标： 这里需要图标库网站点击这里挑选你喜欢的图标 第一步： 第二步： 第三步：将复制的图标编码粘贴到下图所示位置 友情链接设置更改的地方： 更改内容：修改的是blog文件夹下next文件下的config.xml文件 打赏功能开启reward更改的地方： 每篇文章的最后 更改内容：修改的是blog文件夹下next文件下的config.xml文件 开启订阅公众号wechat更改的地方： 更改内容：修改的是blog文件夹下next文件下的config.xml文件 设置头像圆形旋转更改的位置： 更改内容： 具体增加代码可复制： 12345678第一部分：border-radius: 60%;transition: 2.5s all;第二部分：.site-author-image:hover &#123; transform: rotate(360deg);&#125; 全文阅读更改的位置： 更改内容： 全文阅读2在写文章时添加 &lt;!-- more --&gt;这段代码 &lt;!-- more --&gt;上方的正常显示 &lt;!-- more --&gt;下方的隐藏 [更多优化点这里]]]></content>
