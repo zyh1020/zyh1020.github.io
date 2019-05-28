@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[hexo的next主题的最新优化_2]]></title>
+    <url>%2F2019%2Fhexo%E7%9A%84next%E4%B8%BB%E9%A2%98%E7%9A%84%E6%9C%80%E6%96%B0%E4%BC%98%E5%8C%96-2%2F</url>
+    <content type="text"><![CDATA[前言在hexo的next主题的最新优化_1中介绍了一些简单点的操作，希望对你们有所帮助，如果实在看不懂，可以扫一扫文章最后的QQ群二维码，有什么问题可以私聊我呦！好的废话就不多说了。我们开始吧！ 主题优化_2侧边社交链接 提示：这个是与老版的hexo的next主题配置有区别的 更改的地方： 更改内容：修改的是blog文件夹下next文件下的config.xml文件 更改链接对应的的图标： 这里需要图标库网站点击这里挑选你喜欢的图标 第一步： 第二步： 第三步：将复制的图标编码粘贴到下图所示位置 友情链接设置更改的地方： 更改内容：修改的是blog文件夹下next文件下的config.xml文件 打赏功能开启reward更改的地方： 每篇文章的最后 更改内容：修改的是blog文件夹下next文件下的config.xml文件 开启订阅公众号wechat更改的地方： 更改内容：修改的是blog文件夹下next文件下的config.xml文件 设置头像圆形旋转更改的位置： 更改内容： 具体增加代码可复制： 12345678第一部分：border-radius: 60%;transition: 2.5s all;第二部分：.site-author-image:hover &#123; transform: rotate(360deg);&#125; 全文阅读更改的位置： 更改内容： 全文阅读2在写文章时添加 &lt;!-- more --&gt;这段代码 &lt;!-- more --&gt;上方的正常显示 &lt;!-- more --&gt;下方的隐藏 [更多优化点这里]]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>导航</tag>
+        <tag>分类</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[hexo的next主题的最新优化_1]]></title>
     <url>%2F2019%2Fhexo%E7%9A%84next%E4%B8%BB%E9%A2%98%E7%9A%84%E6%9C%80%E6%96%B0%E4%BC%98%E5%8C%96-1%2F</url>
-    <content type="text"><![CDATA[前言​ 该文主要是介绍自己搭建个人博客这个过程，遇到的难点和如何解决的，也算是一份小小的笔记吧！在搭建我的个人博客时，遇到了许多问题，主要是在网上查找的hexo的next主题优化比较老，现在的next主题改动还是比较大的，对于像我一样的初学者还是有一定的困难的，我是在2019年5月搭建完成的，起初是觉得这个挺有意思的，就是想要试一试，玩一玩。现在把它当做一个记录心得体会，一个分享学习经验的平台吧！ 初识想要搭建自己的博客，首先需要知道几个重要的配置文件： 站点的配置文件 主题的配置文件 其他文件或文件夹 主题优化配置语言：更改的地方： 注意：修改的是blog文件夹下的config.xml文件 配置menu菜单导航：更改的地放： 注意：修改的是blog文件夹下next文件下的config.xml文件 配置导航标签的点击后的页面更改的地方： 命令： hexo n page ‘导航标签的英文名称’ 修改内置主题scheme注意：修改的是blog文件夹下next文件下的config.xml文件 更换头像avatar注意：修改的是blog文件夹下next文件下的config.xml文件 更改个人信息更改的地方： 更改的配置： 修改的是blog文件夹下的config.xml文件 改后的效果： [更多优化点这里]]]></content>
+    <content type="text"><![CDATA[前言​ 该文主要是介绍自己搭建个人博客这个过程，遇到的难点和如何解决的，也算是一份小小的笔记吧！在搭建我的个人博客时，遇到了许多问题，主要是在网上查找的hexo的next主题优化比较老，现在的next主题改动还是比较大的，对于像我一样的初学者还是有一定的困难的，我是在2019年5月搭建完成的，起初是觉得这个挺有意思的，就是想要试一试，玩一玩。现在把它当做一个记录心得体会，一个分享学习经验的平台吧！ 初识想要搭建自己的博客，首先需要知道几个重要的配置文件： 站点的配置文件 主题的配置文件 其他文件或文件夹 主题优化_1配置语言：更改的地方： 注意：修改的是blog文件夹下的config.xml文件 配置menu菜单导航：更改的地放： 注意：修改的是blog文件夹下next文件下的config.xml文件 配置导航标签的点击后的页面更改的地方： 命令： hexo n page ‘导航标签的英文名称’ 修改内置主题scheme注意：修改的是blog文件夹下next文件下的config.xml文件 更换头像avatar注意：修改的是blog文件夹下next文件下的config.xml文件 更改个人信息更改的地方： 更改的配置： 修改的是blog文件夹下的config.xml文件 改后的效果： [更多优化点这里]]]></content>
       <categories>
         <category>博客</category>
       </categories>
