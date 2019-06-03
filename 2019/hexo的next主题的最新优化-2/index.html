@@ -468,7 +468,7 @@
             
                 <span class="post-meta-item-text">评论数：</span>
                 <a href="/2019/hexo的next主题的最新优化-2/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count gitment-comments-count" data-xid="/2019/hexo的next主题的最新优化-2/" itemprop="commentCount"></span>
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/hexo的next主题的最新优化-2/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -670,10 +670,6 @@
 
   
     <div class="comments" id="comments">
-      
-        <div onclick="showGitment()" id="gitment-display-button">显示 Gitment 评论</div>
-        <div id="gitment-container" style="display: none"></div>
-      
     </div>
 
   
@@ -867,7 +863,7 @@
                   </li>
                 
                   <li class="links-of-blogroll-item">
-                    <a href="http://39.108.218.40" title="http://39.108.218.40" rel="noopener" target="_blank">个人网站</a>
+                    <a href="http://zouyuhang.club" title="http://zouyuhang.club" rel="noopener" target="_blank">个人网站</a>
                   </li>
                 
                   <li class="links-of-blogroll-item">
@@ -1080,45 +1076,37 @@
   
 
   
-
-
   
-    <!-- LOCAL: You can save these files to your site and update links -->
 
-  
-  <script src="https://cdn.jsdelivr.net/gh/theme-next/theme-next-gitment@1/gitmint.browser.js"></script>
+<script src="//cdn1.lncld.net/static/js/3.11.1/av-min.js"></script>
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theme-next/theme-next-gitment@1/default.css">
-<!-- END LOCAL -->
+
+
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
 
 <script>
-  function renderGitment() {
-    var gitment = new Gitmint({
-      id: window.location.pathname,
-      owner: 'zyh1020',
-      repo: 'mycomment',
-      
-        lang: '' || navigator.language || navigator.systemLanguage || navigator.userLanguage,
-      
-      oauth: {
-      
-      
-        client_secret: 'e52c296817712ad70dbbb8fefd8769a0549e69c9',
-      
-        client_id: 'fba6d466ea44430baf2b'
-      }
-    });
-    gitment.render('gitment-container');
-  }
-
-  
-    function showGitment() {
-      document.getElementById('gitment-display-button').style.display = 'none';
-      document.getElementById('gitment-container').style.display = 'block';
-      renderGitment();
-    }
-  
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick,mail,link';
+  guest = guest.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#comments',
+    verify: false,
+    notify: false,
+    appId: '1oc58QhMC7itWqom0TRzfIty-gzGzoHsz',
+    appKey: 'qLqzOzoN7UJ4b0HSbco1oX6w',
+    placeholder: '亲！留下你足记！',
+    avatar: 'mm',
+    meta: guest,
+    pageSize: '10' || 10,
+    visitor: false,
+    lang: '' || 'zh-cn'
+  });
 </script>
+
+
+
 
   
 
