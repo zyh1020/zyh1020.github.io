@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[hexo的SEO优化百度录入]]></title>
+    <url>%2F2019%2Fhexo%E7%9A%84SEO%E4%BC%98%E5%8C%96%E7%99%BE%E5%BA%A6%E5%BD%95%E5%85%A5%2F</url>
+    <content type="text"><![CDATA[前言相信看到这篇文章的人，都是历经九九八十难只差最后一难，就可以回到好基友面前，大大的装一波好B，但是想象是美好的，但是现实却是残酷的。因为推广是一个烦人的事情，那么怎么才能让别人知道我们呢，我们就要想办法让别人通过搜索就可以搜索到你博客的内容，给我们带来自然流量，这就需要seo优化,让我们的站点变得对搜索引擎友好。 什么是SEO？ 汉译为搜索引擎优化。是一种方式：利用搜索引擎的规则提高网站在有关搜索引擎内的自然排名。目的是：为网站提供生态式的自我营销解决方案，让其在行业内占据领先地位，获得品牌收益；SEO包含站外SEO和站内SEO两方面；为了从搜索引擎中获得更多的免费流量，从网站结构、内容建设方案、用户互动传播、页面等角度进行合理规划，还会使搜索引擎中显示的网站相关信息对用户来说更具有吸引力。 百度收录 说再多的废话也是没用的，现在开始进行实战，注意这是实战，这不是演习，要集中注意一步一步做，做错了，，，我也没办法，哈哈哈，如果有问题最下方有QQ群可以了解一下。 收录前提这个是我自己在搭建自己博客时遇到的问题，第一点就是好像百度不能爬github上的东西，所以我建议第一步，也就是前提就是将自己的博客部署到coding上,如果不会没关系，点这里. 收录第一步：收录站点判断方式：在搜索引擎中输入site:&lt;域名&gt; 举个栗子：命令：set:zyh1020.coding.me如下图 收录第二步：验证网站 所谓的验证网站，你可以当做填验证码一样，他就是验证网站的所有权，毕竟一般人是不可能更改网站的内容的。好的，按照以下步骤开始进行网站验证。 1,添加网站百度网站的收录链接点我 2,站点属性 3,验证网站网站验证有三种方式： 文件验证 html验证 CNAME验证 我采用文件验证的方式，因为他比较简单。 第一步：下载验证文件如下图 ​ 第二步：将下载后的文件放到themes\next\source目录下 如下图 第三步：将下载后的文件上传到coding上 命令三连击： ​ 第一小步：hexo clean 清除原来的public文件 ​ 第二小步：hexo g重新生成public文件 注意这时public文件夹下应该有下载的文件 ​ 第三小步：hexo d 将文件推送到coding上 第四步：点击 “点击这里确认验证文件可以正常访问” ​ 如果可以成功访问到下载的文件，点击完成验证。 ​ 如果不能成功访问到下载文件，或者点击完成验证后报错，删除该站点，重新做一遍。 收录第三步：链接提交​ 这一步我建议最好还是在验证网站网站完成后再进行。 1,安装sitemap插件​ 第一步：在hexo的安装目录下（站点配置文件_config.yml同级下）进行 12npm install hexo-generator-sitemap --save npm install hexo-generator-baidu-sitemap --save ​ 第二步：改博客配置文件 ​ 第三步：命令三连击： ​ 第一小步：hexo clean 清除原来的public文件 ​ 第二小步：hexo g重新生成public文件 注意这时public文件夹下应该有sitemap生成的文件（sitemap.xml和baidusitemap.xml文件） ​ 第三小步：hexo d 将文件推送到coding上 2,找到链接提交 3,选择链接提交的方式​ 链接方式两种： - 手动提送 自动提交- 主动推送 自动推送 sitemap ​ 我采用的是sitemap的方式： 刷新后可以看到： 收录第四步：苦苦等待等等啊！不要走！ 大功告成！]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>导航</tag>
+        <tag>分类</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[hexo的next主题的最新优化_4]]></title>
     <url>%2F2019%2Fhexo%E7%9A%84next%E4%B8%BB%E9%A2%98%E7%9A%84%E6%9C%80%E6%96%B0%E4%BC%98%E5%8C%96-4%2F</url>
     <content type="text"><![CDATA[前言在前三篇介绍了一些简单点的操作，希望对你们有所帮助，如果实在看不懂，可以扫一扫文章最后的QQ群二维码，有什么问题可以私聊我呦！好的废话就不多说了。我们开始吧！ 主题优化_4添加看板娘更改的地方： 更改的内容： 第一步：在站点配置文(_config.yml)进入dos命令窗执行： 1npm install --save hexo-helper-live2d 第二步：请向Hexo的 _config.yml 文件添加如下代码 123456789101112131415161718live2d: enable: true scriptFrom: local model: scale: 1 hHeadPos: 0.5 vHeadPos: 0.618 display: superSample: 2 width: 200 height: 400 position: right hOffset: 0 vOffset: -20 mobile: show: false react: opacity: 0.7 隐藏底部强力驱动更改的地方： 更改的内容： 如何在hexo博客中插入本地图片第一步：安装插件 可以上传本地图片的插件 1npm install hexo-asset-image --save 第二步，更改站点配置文件(_config.yml)中的内容 第三步，再运行hexo n &quot;xxxx&quot;来生成md博文时，/source/_posts文件夹内除了xxxx.md文件还有一个同名的文件夹 第四步，最后在xxxx.md中想引入图片时，先把图片复制到xxxx这个文件夹中，然后只需要在xxxx.md中按照markdown的格式引入图片： 1![你想输入的替代文字](xxxx/图片名.jpg) 如何在hexo插入视频一般在博客中插入视频，音频还是图片都有本地和网络两种方式。一般图片比较小我采用本地插入，音频是比较大的，所以一般我采用网络的方式插入。下面是以哔哔哩哔哩视频为例。 第一步：将想要插入的视频上传到哔哩哔哩(他没有广告)。 第二步：找到分享按钮如下图： 1&lt;iframe src="//player.bilibili.com/player.html?aid=53660661&amp;cid=93868411&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"&gt; &lt;/iframe&gt; 第三步，将代码复制到你想要插入的位置，效果如下 插入音频插入音频和插入视频是类似的。 第一步：将想要插入的音频上传到网易云音乐(为例)。 第二步：找到分享按钮如下图： 1&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=298 height=52 src=&quot;//music.163.com/outchain/player?type=2&amp;id=411754401&amp;auto=0&amp;height=32&quot;&gt;&lt;/iframe&gt; 第三步，将代码复制到你想要插入的位置，效果如下 了解更多]]></content>
