@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[hexo搭建个人博客]]></title>
+    <url>%2F2019%2Fhexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%2F</url>
+    <content type="text"><![CDATA[前言 现在随着计算机的飞速发展，拥有一个属于自己的博客，是一件非常平常的事。使用hexo搭建一个属于自己的个人博客，是即快捷又美观的一种方式，也是非常受到人们的喜爱的。接下来我将带领大家一起搭建自己的博客。后续还有hexo的next主题美化，hexo的部署，hexo的百度录入等等，一系列的教程，你可以访问我的个人博客. 准备 系统：window10家庭版 nodejs：下载 点击这里快捷电梯 git：下载 点击这里快捷电梯 安装hexo运行环境 安装是非常简单的，nodejs和git的安装是非常简单的。如果你实在不会就上网搜安装教程，会有很多的。 ​ nodejs安装完成后的检验操作是在das窗口下输入命令 node -v和npm -v这两个命令就是查看版本信息的。如下图所示: ​ git安装完成后的检验操作是：鼠标右键 效果如下图所示。 安装hexo基本框架 第一步：新建文件夹 ​ 这一步是为了给你的博客找一个合适的位置。新建的文件夹的命名是随意的。进入新建的文件夹后，鼠标右键点击Git Bash Here 。如下图。 第二步：安装hexo基础框架 第一步完成后，会出现一个命名窗口。输入如下命令： 1234567891011121314//第一条 这是安装hexo的基础框架npm install -g hexo//第二条 这是初始化hexo框架 这个可能会比较慢hexo init//第三条 安装所需要的组件npm install//第四条 编译生成静态页面hexo g//第五条 启动本地服务hexo s 第五条命名完成后，可以首次体验一下，如下图 浏览器中的效果如下： hexo的后续操作 hexo的next主题美化，hexo的部署，hexo的百度录入等等，一系列的教程，你可以访问点击这里我的个人博客.]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>导航</tag>
+        <tag>分类</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[hext个人博客部署到github和coding]]></title>
     <url>%2F2019%2Fhext%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E5%88%B0github%E5%92%8Ccoding%2F</url>
     <content type="text"><![CDATA[前言​ 可能我这个人废话比较多，每次写博客都会写个前言，但是我就是想和大家说说写这篇博客的心里想法。hexo的next主题美化也完成了，但是不可能总是在本地进行，大家也希望在网上可以访问有，这样装B又拉风。我会介绍两种方式的部署，一种是部署在github上，另一种是部署在coding上。两种方式各有优缺点吧，你也可以只学一种部署方式。个人建议部署到coding上，这样方便后期百度的录入。好了我们开始吧！ 部署到github 这种部署方式，对于一些学习编程的是非常容易的，一般情况下，大多数码农可能还是在使用github进行代码托管。这是非常简单的。 第一步：建库​ 走到这一步的同学，大多数应该都已将nodejs和git下载完成了吧！如果没有没关系可以在我的博客上找到教程，点这里我的博客 首页右边搜索查询。 1,建立连接​ 这是我自己的一种说法，可以理解为，将你下载在本地的github客户端与网页中的github联系起来。这样你在本地操作才会上传到你建立仓库上去。 操作如下： ​ 1，随便新建一个文件夹。 ​ 2，鼠标右键如下图 ​ 3,在命令窗口下，输入命令绑定github账号 12git config user.name &apos;github用户名&apos;git config user.email &apos;注册github用的邮箱&apos; ​ 4,顺便安装一个插件后面会用到，安装命令如下： 1npm --save install hexo-deployer-git 2,新建github库​ 这个新建的仓库是用来存放hexo g命令生成得public文件夹下的所有文件。 ​ 1，到github官网上 点这里 登录自己的github账号没有的话可以自己注册在登录。 ​ 2，新建仓库 注意：仓库名称格式是用户名.github.io 第二步：部署&gt; 代码的家已经搭建好了，现在我们只需要将本地文件上传到github上就可以了。 1,复制仓库的地址​ 找到新建的库如下图 2.更改hexo的核心配置文件_config.yml内容如下： 12345deploy: type: git repo: github: 你的仓库地址 branch: master 第三步：推送前面建立连接时，第4小步：安装了一个插件，如果没有安装，注意安装。 命令三连击： ​ 第一小步：hexo clean 清除原来的public文件 ​ 第二小步：hexo g重新生成public文件 ​ 第三小步：hexo d 将文件推送到github上 检查：如果你在github网页上的仓库可以看见和public文件夹下的一样，就证明成功了。 部署到coding 部署到coding和部署到github是非常相似的。 第一步：建库1,建立连接​ 这是我自己的一种说法，可以理解为，将你下载在本地的git客户端与网页中的coding联系起来。这样你在本地操作才会上传到你建立仓库上去。 操作如下： ​ 1，随便新建一个文件夹。 ​ 2，鼠标右键如下图 ​ 3,在命令窗口下，输入命令绑定coding账号，输入以下命令 12345ssh-keygen -t rsa -C &quot;你的邮箱&quot; Enter passphrase (empty for no passphrase):&lt;输入密码&gt; Enter same passphrase again:&lt;再次输入密码&gt; 注意：ssh-keygen之间无空格 执行完上面的命令后，会在你新建的文件夹下生成一个****_rsa.pub 文件，这个文件存放的就是公钥。 4,顺便安装一个插件后面会用到，安装命令如下： 1npm --save install hexo-deployer-git 2,新建coding仓库​ 这个新建的仓库是用来存放hexo g命令生成得public文件夹下的所有文件。 ​ 1，到coding官网上 点这里 登录自己的coding账号没有的话可以自己注册在登录。 ​ 2，新建仓库 注意：仓库名称格式是： 用户名.coding.me 3，添加公钥 注意：这里的公钥内容就是建立连接中第3步生成的**_rsa.pub 文件的内容。 第二步：部署1,复制仓库的地址​ 找到新建的库如下图 2,开启page服务 3.更改hexo的核心配置文件_config.yml12345deploy: type: git repo: coding: 你上一步复制的仓库地址 branch: master 多提一下，如果想同时部署（这个前提是你成功部署到github上了，又想部署到coding上）。配置文件_config.yml 内容如下： 123456deploy: type: git repo: github: 你的github仓库地址 coding: 你的coding仓库地址 branch: master 第三步：推送前面建立连接时，第4小步：安装了一个插件，如果没有安装，注意安装。 命令三连击： ​ 第一小步：hexo clean 清除原来的public文件 ​ 第二小步：hexo g重新生成public文件 ​ 第三小步：hexo d 将文件推送到coding上 检查：如果你在coding网页上的仓库可以看见和public文件夹下的一样，就证明成功了。]]></content>
