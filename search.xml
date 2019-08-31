@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Python初学一]]></title>
+    <url>%2F2019%2FPython%E5%88%9D%E5%AD%A6%E4%B8%80%2F</url>
+    <content type="text"><![CDATA[前言​ 今天闲的无聊，就学习了一点python的内容，发现python是真的不错。“人生苦短，我爱Python”，简单明了，python是非常简明的。我个人觉得python就像玄幻小说中的，可以融合天下武功的秘籍。是主角的一个外挂，修炼起来快。 一，Python​ 学习一门语言，必要的是要了解，这门语言的优缺点。做到扬长避短。 特点： * 可读性强 * 简洁，简洁，简洁 * 面向对象 * 免费和开源 * 可移植性和跨平台 * 应用范围 ： * 科学计算 * 人工智能 * WEB服务端和大型网站后端 * 大数据 * 云计算 * ，，，， 什么时候不应该用Python： Python是解释执行。性能较低。所以一些要求性能的，最好还是用用 C/C++/JAVA等。不过，不用担心Python解释器会越来越快。 二，Python下载安装和配置1，第一步： 进入官网：www.python.org/downloads/ 下载自己需要的版本。 ​ 我这里使用的是：链接: https://pan.baidu.com/s/1T2o6s-gJL6R_Osgivzyh6Q ​ 提取码: p8j8 ​ 2，安装过程 ​ ​ 最后判断是否安装成功，在命令行窗口下输入 python -V ​ 参考： 内容：百战程序员笔记。 安装：https://baijiahao.baidu.com/s?id=1606573927720991570&amp;wfr=spider&amp;for=pc]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>导航</tag>
+        <tag>分类</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Webstorm配置默认浏览器]]></title>
     <url>%2F2019%2FWebstorm%E9%85%8D%E7%BD%AE%E9%BB%98%E8%AE%A4%E6%B5%8F%E8%A7%88%E5%99%A8%2F</url>
     <content type="text"><![CDATA[前言​ 细节决定成败，编程不仅仅讲究效率，更要注重质量，而细节是效率和质量的根本保证。接下来我会手把手的教大家配置webstorm的默认浏览器。 注意事项： 1，在配置对应浏览器时，要注意配置的路径重要有.exe文件，路径并不是.exe文件所在目录，如果你的配置路径是.exe文件所在目录，点击编辑页面上的图标时，会打开文件夹。 2，.exe文件必须是启动浏览器的文件，如果是别的.exe文件，是不行的，例如：我正在使用的谷歌浏览器，他的启动的.exe文件就有三个(下方有图)，一定要找到正确的.exe文件。 注意事项的配图： 编辑页面上的图标： 谷歌浏览器的启动： 配置步骤1, 如图： 2 ，如图： 3, 找相关浏览器的启动位置，如图：]]></content>
