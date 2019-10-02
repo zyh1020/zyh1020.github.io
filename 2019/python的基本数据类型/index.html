@@ -111,7 +111,7 @@
 <meta property="og:image" content="http://qiniuyun.zouyuhang.club/TIM%E6%88%AA%E5%9B%BE20190901151304.jpg">
 <meta property="og:image" content="http://qiniuyun.zouyuhang.club/TIM%E6%88%AA%E5%9B%BE20190901151634.jpg">
 <meta property="og:image" content="http://qiniuyun.zouyuhang.club/TIM%E6%88%AA%E5%9B%BE20190901160659.jpg">
-<meta property="og:updated_time" content="2019-09-01T08:49:39.513Z">
+<meta property="og:updated_time" content="2019-09-16T07:54:47.422Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="python的基本数据类型">
 <meta name="twitter:description" content="标识符标识符的定义：用于变量、函数、类、模块等的名称。 标识符的规则：  区分大小写。如：zyh和ZYH是不同的。  第一个字符必须是字母、下划线。其后的字符是：字母、数字、下划线 。 不能使用关键字。比如：if、or、while 等 以双下划线开头和结尾的名称通常有特殊含义，尽量避免这种写法。比如__nit__是类 的构造函数。  基本数据类型 整数 浮点数 布尔型 字符串型  整数特殊进制二进">
@@ -430,12 +430,24 @@
                 
               
 
-              <time title="创建时间：2019-09-01 14:43:29 / 修改时间：16:49:39" itemprop="dateCreated datePublished" datetime="2019-09-01T14:43:29+08:00">2019-09-01</time>
+              <time title="创建时间：2019-09-01 14:43:29" itemprop="dateCreated datePublished" datetime="2019-09-01T14:43:29+08:00">2019-09-01</time>
             
 
             
               
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-09-16 15:54:47" itemprop="dateModified" datetime="2019-09-16T15:54:47+08:00">2019-09-16</time>
               
             
           </span>
@@ -628,10 +640,34 @@
 </tbody>
 </table>
 <ul>
-<li><p>其他操作（三个量为负数）的情况：</p>
-<p>| 操作                                 | 实例                                | 结果                          |<br>| ———————————— | ———————————– | —————————– |<br>| “abcdefghijklmnopqrstuv wxyz”[-3:]   |                                     | “xyz”                         |<br>| “abcdefghijklmnopqrstuv wxyz”[-8:-3] | 倒数第八个到倒数第 三个(包头不包尾) | ‘stuvw’                       |<br>| “abcdefghijklmnopqrstuv wxyz”[::-1]  | 步长为负，从右到左 反向提取         | ‘zyxwvutsrqpon mlkjihgfedcba’ |</p>
-</li>
+<li>其他操作（三个量为负数）的情况：</li>
 </ul>
+<table>
+<thead>
+<tr>
+<th>操作</th>
+<th>实例</th>
+<th>结果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>“abcdefghijklmnopqrstuv wxyz”[-3:]</td>
+<td>倒数三个</td>
+<td>“xyz”</td>
+</tr>
+<tr>
+<td>“abcdefghijklmnopqrstuv wxyz”[-8:-3]</td>
+<td>倒数第八个到倒数第 三个(包头不包尾)</td>
+<td>‘stuvw’</td>
+</tr>
+<tr>
+<td>“abcdefghijklmnopqrstuv wxyz”[::-1]</td>
+<td>步长为负，从右到左 反向提取</td>
+<td>‘zyxwvutsrqpon mlkjihgfedcba’</td>
+</tr>
+</tbody>
+</table>
 <h3 id="不换行打印"><a href="#不换行打印" class="headerlink" title="不换行打印"></a>不换行打印</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">print(<span class="string">"sxt"</span>,end=<span class="string">' '</span>) </span><br><span class="line"></span><br><span class="line">print(<span class="string">"sxt"</span>,end=<span class="string">'##'</span>) </span><br><span class="line"></span><br><span class="line">print(<span class="string">"sxt"</span>)</span><br></pre></td></tr></table></figure>
 <p>### </p>
 <h3 id="split-分割和join-合并"><a href="#split-分割和join-合并" class="headerlink" title="split()分割和join()合并"></a>split()分割和join()合并</h3><p>split()可以基于指定分隔符将字符串分隔成多个子字符串(存储到列表中)。如果不指定分隔 符，则默认使用空白字符(换行符/空格/制表符)。示例代码如下： </p>
