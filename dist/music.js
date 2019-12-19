@@ -20,7 +20,7 @@ const ap = new APlayer({
         name: '日不落',
         artist: '蔡依林',
         url: 'http://qiniuyun.zouyuhang.club/music%E8%94%A1%E4%BE%9D%E6%9E%97%20-%20%E6%97%A5%E4%B8%8D%E8%90%BD.mp3',
-        cover: http://qiniuyun.zouyuhang.club/%E6%97%A5%E4%B8%8D%E8%90%BD.jpg',
+        cover: 'http://qiniuyun.zouyuhang.club/%E6%97%A5%E4%B8%8D%E8%90%BD.jpg',
       },
 	  {
         name: '成都',
