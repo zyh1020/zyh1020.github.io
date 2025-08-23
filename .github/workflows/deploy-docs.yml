@@ -20,8 +20,6 @@ jobs:
           # 如果你文档需要 Git 子模块，取消注释下一行
           # submodules: true
 
-
-
       - name: 设置 Node.js
         uses: actions/setup-node@v4
         with:
@@ -37,7 +35,7 @@ jobs:
         env:
           NODE_OPTIONS: --max_old_space_size=8192
         run: |-
-          npm run docs:build
+          npm run build
           > src/.vuepress/dist/.nojekyll
 
       - name: 部署文档
@@ -46,3 +44,4 @@ jobs:
           # 部署文档
           branch: gh-pages
           folder: src/.vuepress/dist
+          token: ${{ secrets.ACCESS_TOKEN }}
