@@ -1,0 +1,25 @@
+// 设置字体
+@font-face {
+  font-family: 'blogFont';
+  src: url('http://img.zouyh.top/font/blogFont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: 'blogFont', sans-serif;
+  font-synthesis: weight;
+}
+.DocSearch-Button-Placeholder{
+  font-family: 'blogFont', sans-serif;
+}
+
+// 设置主页下来框
+.vp-hero-slide-down-button{
+  bottom: 70px;
+}
+.slide-down-icon{
+  width: 45px !important;
+  color: rgba(255, 255, 255, 0.8) !important;
+}
