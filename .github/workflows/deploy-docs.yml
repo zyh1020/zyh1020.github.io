@@ -52,7 +52,7 @@ jobs:
           switches: -avzr --delete
           legacy_allow_rsa_hostkeys: "true"
           path: src/.vuepress/dist
-          remote_path: /root/nginx/html/dist
+          remote_path: /root/nginx/html
           remote_host: ${{ secrets.SSH_SERVE_IP }}
           remote_port: 22
           remote_user: root
