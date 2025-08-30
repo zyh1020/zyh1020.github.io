@@ -38,10 +38,22 @@ jobs:
           npm run build
           > src/.vuepress/dist/.nojekyll
 
-      - name: 部署文档
+      - name: 部署github
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           # 部署文档
           branch: gh-pages
           folder: src/.vuepress/dist
-          token: ${{ secrets.ACCESS_TOKEN }}
+          token: ${{ secrets.DEPLOY_TOKEN_GITHUB }}
+
+      - name: rsync deployments
+        uses: burnett01/rsync-deployments@7.1.0
+        with:
+          switches: -avzr --delete
+          legacy_allow_rsa_hostkeys: "true"
+          path: src/.vuepress/dist
+          remote_path: /root/nginx/html/dist
+          remote_host: ${{ secrets.SSH_SERVE_IP }}
+          remote_port: 22
+          remote_user: root
+          remote_key: ${{ secrets.SSH_SERVE_PRIVATE_KEY }}
