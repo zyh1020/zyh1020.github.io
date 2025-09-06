@@ -1,17 +1,17 @@
 ---
-icon: document
+icon: file-lines
 # 标题
 title: 'SpringCloud项目创建'
 # 设置作者
 author: Ms.Zyh
 # 设置写作时间
-date: 2022-04-15
+date: 2022-04-24
 # 一个页面可以有多个分类
 category:
   - SpringCloud
 # 一个页面可以有多个标签
 tag:
-  - 基础
+  - 进阶
   - SpringCloud
 # 此页面会在文章列表置顶
 sticky: false

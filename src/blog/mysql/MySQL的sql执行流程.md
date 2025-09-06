@@ -1,17 +1,17 @@
 ---
-icon: document
+icon: file-lines
 # 标题
 title: 'MySQL的sql执行流程'
 # 设置作者
 author: Ms.Zyh
 # 设置写作时间
-date: 2022-05-16
+date: 2022-05-21
 # 一个页面可以有多个分类
 category:
   - mysql
 # 一个页面可以有多个标签
 tag:
-  - 干货
+  - 进阶
   - mysql
 # 此页面会在文章列表置顶
 sticky: false

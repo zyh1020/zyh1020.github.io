@@ -1,17 +1,17 @@
 ---
-icon: document
+icon: file-lines
 # 标题
 title: 'RabbitMQ消息的可靠传递'
 # 设置作者
 author: Ms.Zyh
 # 设置写作时间
-date: 2022-05-12
+date: 2022-05-01
 # 一个页面可以有多个分类
 category:
   - MQ
 # 一个页面可以有多个标签
 tag:
-  - 推荐
+  - 必看
   - MQ
 # 此页面会在文章列表置顶
 sticky: false

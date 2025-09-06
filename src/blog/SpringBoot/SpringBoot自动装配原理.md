@@ -1,17 +1,17 @@
 ---
-icon: document
+icon: file-lines
 # 标题
 title: 'SpringBoot自动装配原理'
 # 设置作者
 author: Ms.Zyh
 # 设置写作时间
-date: 2022-05-12
+date: 2022-04-23
 # 一个页面可以有多个分类
 category:
   - SpringBoot
 # 一个页面可以有多个标签
 tag:
-  - 必看
+  - 基础
   - SpringBoot
 # 此页面会在文章列表置顶
 sticky: false

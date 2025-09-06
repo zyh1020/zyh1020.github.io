@@ -1,17 +1,17 @@
 ---
-icon: document
+icon: file-lines
 # 标题
 title: 'mybatis源码解析核心配置文件'
 # 设置作者
 author: Ms.Zyh
 # 设置写作时间
-date: 2022-05-26
+date: 2022-05-25
 # 一个页面可以有多个分类
 category:
   - Mybatis
 # 一个页面可以有多个标签
 tag:
-  - 推荐
+  - 必看
   - Mybatis
 # 此页面会在文章列表置顶
 sticky: false

@@ -1,17 +1,17 @@
 ---
-icon: document
+icon: file-lines
 # 标题
 title: 'JVM的垃圾回收机制'
 # 设置作者
 author: Ms.Zyh
 # 设置写作时间
-date: 2022-05-06
+date: 2022-04-19
 # 一个页面可以有多个分类
 category:
   - Jvm
 # 一个页面可以有多个标签
 tag:
-  - 必看
+  - 进阶
   - Jvm
 # 此页面会在文章列表置顶
 sticky: false

@@ -1,17 +1,17 @@
 ---
-icon: document
+icon: file-lines
 # 标题
 title: 'Sentinel限流'
 # 设置作者
 author: Ms.Zyh
 # 设置写作时间
-date: 2022-05-27
+date: 2022-04-14
 # 一个页面可以有多个分类
 category:
   - SpringCloud
 # 一个页面可以有多个标签
 tag:
-  - 必看
+  - 偏僻
   - SpringCloud
 # 此页面会在文章列表置顶
 sticky: false

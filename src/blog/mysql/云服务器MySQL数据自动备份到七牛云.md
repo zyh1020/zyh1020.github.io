@@ -1,11 +1,11 @@
 ---
-icon: document
+icon: file-lines
 # 标题
 title: '云服务器MySQL数据自动备份到七牛云'
 # 设置作者
 author: Ms.Zyh
 # 设置写作时间
-date: 2022-04-28
+date: 2022-05-07
 # 一个页面可以有多个分类
 category:
   - mysql

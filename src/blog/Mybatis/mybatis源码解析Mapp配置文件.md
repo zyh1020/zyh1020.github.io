@@ -1,17 +1,17 @@
 ---
-icon: document
+icon: file-lines
 # 标题
 title: 'mybatis源码解析Mapp配置文件'
 # 设置作者
 author: Ms.Zyh
 # 设置写作时间
-date: 2022-05-11
+date: 2022-05-06
 # 一个页面可以有多个分类
 category:
   - Mybatis
 # 一个页面可以有多个标签
 tag:
-  - 必看
+  - 常用
   - Mybatis
 # 此页面会在文章列表置顶
 sticky: false

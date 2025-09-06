@@ -1,17 +1,17 @@
 ---
-icon: document
+icon: file-lines
 # 标题
 title: 'redis实现分布式锁'
 # 设置作者
 author: Ms.Zyh
 # 设置写作时间
-date: 2022-05-01
+date: 2022-05-12
 # 一个页面可以有多个分类
 category:
   - Redis
 # 一个页面可以有多个标签
 tag:
-  - 常用
+  - 推荐
   - Redis
 # 此页面会在文章列表置顶
 sticky: false

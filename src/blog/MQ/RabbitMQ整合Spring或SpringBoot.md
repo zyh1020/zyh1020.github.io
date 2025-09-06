@@ -1,17 +1,17 @@
 ---
-icon: document
+icon: file-lines
 # 标题
 title: 'RabbitMQ整合Spring或SpringBoot'
 # 设置作者
 author: Ms.Zyh
 # 设置写作时间
-date: 2022-05-05
+date: 2022-04-23
 # 一个页面可以有多个分类
 category:
   - MQ
 # 一个页面可以有多个标签
 tag:
-  - 进阶
+  - 推荐
   - MQ
 # 此页面会在文章列表置顶
 sticky: false

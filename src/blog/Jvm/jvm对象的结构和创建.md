@@ -1,17 +1,17 @@
 ---
-icon: document
+icon: file-lines
 # 标题
 title: 'jvm对象的结构和创建'
 # 设置作者
 author: Ms.Zyh
 # 设置写作时间
-date: 2022-04-29
+date: 2022-04-10
 # 一个页面可以有多个分类
 category:
   - Jvm
 # 一个页面可以有多个标签
 tag:
-  - 基础
+  - 干货
   - Jvm
 # 此页面会在文章列表置顶
 sticky: false

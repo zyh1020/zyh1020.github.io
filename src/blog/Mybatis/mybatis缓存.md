@@ -1,5 +1,5 @@
 ---
-icon: document
+icon: file-lines
 # 标题
 title: 'mybatis缓存'
 # 设置作者

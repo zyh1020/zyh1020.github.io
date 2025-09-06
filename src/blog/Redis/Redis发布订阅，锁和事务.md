@@ -1,11 +1,11 @@
 ---
-icon: document
+icon: file-lines
 # 标题
 title: 'Redis发布订阅，锁和事务'
 # 设置作者
 author: Ms.Zyh
 # 设置写作时间
-date: 2022-04-23
+date: 2022-05-04
 # 一个页面可以有多个分类
 category:
   - Redis

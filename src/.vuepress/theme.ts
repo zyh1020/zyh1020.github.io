@@ -19,17 +19,8 @@ export default hopeTheme({
   // 博客相关
   blog: {
     description: "一个菜鸟和牛马",
-	avatar: "http://zouyh.top/favicon.png",
-    intro: "/intro.html",
-    medias: {
-      Baidu: "https://example.com",
-      BiliBili: "https://example.com",
-      Bitbucket: "https://example.com",
-      Dingding: "https://example.com",
-      Discord: "https://example.com",
-      Dribbble: "https://example.com",
-      Email: "mailto:info@example.com",
-    },
+	avatar: "http://img.zouyh.top/theme/blog/heard.png",
+    intro: "/intro.html"
   },
   // 关闭github连接
   repoDisplay: false,
@@ -41,10 +32,10 @@ export default hopeTheme({
   nextLink: true,
   // 是否显示页面最后更新时间,默认值: true
   lastUpdated: true,
-  hostname: "https://mister-hope.github.io",
+  hostname: "http://img.zouyh.top/",
   author: {
     name: "Mr.Zyh",
-    url: "https://mister-hope.com",
+    url: "http://img.zouyh.top/",
   },
   docsDir: "src",
 
@@ -55,10 +46,8 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "默认页脚",
+  footer: "豫ICP备2022026603号",
   displayFooter: true,
-
-  
 
   // 加密配置
   encrypt: {
@@ -69,15 +58,12 @@ export default hopeTheme({
       },
     },
   },
-
   // 多语言配置
   metaLocales: {
     editLink: "在 GitHub 上编辑此页",
   },
-
   // 如果想要实时查看任何改变，启用它。注: 这对更新性能有很大负面影响
   // hotReload: true,
-
   // 此处开启了很多功能用于演示，你应仅保留用到的功能。
   markdown: {
     align: true,

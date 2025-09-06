@@ -1,17 +1,17 @@
 ---
-icon: document
+icon: file-lines
 # 标题
 title: '浮点精度（float、double）运算不精确的原因'
 # 设置作者
 author: Ms.Zyh
 # 设置写作时间
-date: 2022-04-14
+date: 2022-05-10
 # 一个页面可以有多个分类
 category:
   - Java
 # 一个页面可以有多个标签
 tag:
-  - 偏僻
+  - 推荐
   - Java
 # 此页面会在文章列表置顶
 sticky: false

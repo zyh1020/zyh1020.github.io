@@ -1,23 +1,25 @@
 ---
-icon: document
+icon: file-lines
 # 标题
 title: 'CAS和Atomic'
 # 设置作者
 author: Ms.Zyh
 # 设置写作时间
-date: 2022-05-11
+date: 2022-05-25
 # 一个页面可以有多个分类
 category:
   - 多线程
 # 一个页面可以有多个标签
 tag:
-  - 偏僻
+  - 干货
   - 多线程
 # 此页面会在文章列表置顶
 sticky: false
 # 此页面会出现在星标文章中
 star: false
 ---
+
+
 
 ### 一，CAS
 

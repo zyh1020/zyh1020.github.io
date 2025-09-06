@@ -1,17 +1,17 @@
 ---
-icon: document
+icon: file-lines
 # 标题
 title: 'nacos快速开始'
 # 设置作者
 author: Ms.Zyh
 # 设置写作时间
-date: 2022-04-17
+date: 2022-05-19
 # 一个页面可以有多个分类
 category:
   - SpringCloud
 # 一个页面可以有多个标签
 tag:
-  - 偏僻
+  - 推荐
   - SpringCloud
 # 此页面会在文章列表置顶
 sticky: false

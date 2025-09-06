@@ -1,17 +1,17 @@
 ---
-icon: document
+icon: file-lines
 # 标题
 title: 'jvm垃圾收集器'
 # 设置作者
 author: Ms.Zyh
 # 设置写作时间
-date: 2022-04-21
+date: 2022-05-20
 # 一个页面可以有多个分类
 category:
   - Jvm
 # 一个页面可以有多个标签
 tag:
-  - 进阶
+  - 基础
   - Jvm
 # 此页面会在文章列表置顶
 sticky: false

@@ -1,17 +1,17 @@
 ---
-icon: document
+icon: file-lines
 # 标题
 title: '手写zookeeper注册中心'
 # 设置作者
 author: Ms.Zyh
 # 设置写作时间
-date: 2022-04-24
+date: 2022-05-08
 # 一个页面可以有多个分类
 category:
   - zookeeper
 # 一个页面可以有多个标签
 tag:
-  - 基础
+  - 偏僻
   - zookeeper
 # 此页面会在文章列表置顶
 sticky: false

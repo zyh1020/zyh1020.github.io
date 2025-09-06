@@ -1,11 +1,11 @@
 ---
-icon: document
+icon: file-lines
 # 标题
 title: 'SSL证书安装'
 # 设置作者
 author: Ms.Zyh
 # 设置写作时间
-date: 2022-05-13
+date: 2022-05-26
 # 一个页面可以有多个分类
 category:
   - Nginx

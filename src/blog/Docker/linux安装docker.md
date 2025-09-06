@@ -1,5 +1,5 @@
 ---
-icon: document
+icon: file-lines
 # 标题
 title: 'linux安装docker'
 # 设置作者
