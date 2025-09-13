@@ -1,4 +1,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: http://img.zouyh.top/vuepress/sitemap.xml
+Sitemap: http://img.zouyh.top/sitemap.xml
