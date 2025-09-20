@@ -2,7 +2,7 @@
 icon: file-lines
 title: RabbitMQ安装
 author: Ms.Zyh
-date: 2230-08-21
+date: 2023-08-21
 category:
   - MQ
 tag:
