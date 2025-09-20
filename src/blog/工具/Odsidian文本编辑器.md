@@ -1,21 +1,14 @@
 ---
 icon: file-lines
-# 标题
-title: 'Odsidian文本编辑器'
-# 设置作者
+title: Odsidian文本编辑器
 author: Ms.Zyh
-# 设置写作时间
-date: 2022-04-20
-# 一个页面可以有多个分类
+date: 2022-07-20
 category:
   - 工具
-# 一个页面可以有多个标签
 tag:
   - 偏僻
   - 工具
-# 此页面会在文章列表置顶
 sticky: false
-# 此页面会出现在星标文章中
 star: false
 ---
 

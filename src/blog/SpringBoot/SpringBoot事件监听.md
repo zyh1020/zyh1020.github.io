@@ -1,21 +1,14 @@
 ---
 icon: file-lines
-# 标题
-title: 'SpringBoot事件监听'
-# 设置作者
+title: SpringBoot事件监听
 author: Ms.Zyh
-# 设置写作时间
-date: 2022-04-28
-# 一个页面可以有多个分类
+date: 2024-05-28
 category:
   - SpringBoot
-# 一个页面可以有多个标签
 tag:
   - 进阶
   - SpringBoot
-# 此页面会在文章列表置顶
 sticky: false
-# 此页面会出现在星标文章中
 star: false
 ---
 

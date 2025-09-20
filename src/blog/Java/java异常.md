@@ -1,21 +1,14 @@
 ---
 icon: file-lines
-# 标题
-title: 'java异常'
-# 设置作者
+title: java异常
 author: Ms.Zyh
-# 设置写作时间
-date: 2022-05-23
-# 一个页面可以有多个分类
+date: 2023-04-28
 category:
   - Java
-# 一个页面可以有多个标签
 tag:
   - 常用
   - Java
-# 此页面会在文章列表置顶
 sticky: false
-# 此页面会出现在星标文章中
 star: false
 ---
 

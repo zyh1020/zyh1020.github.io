@@ -1,21 +1,14 @@
 ---
 icon: file-lines
-# 标题
-title: 'nacos的服务治理'
-# 设置作者
+title: nacos的服务治理
 author: Ms.Zyh
-# 设置写作时间
-date: 2022-04-19
-# 一个页面可以有多个分类
+date: 2025-06-19
 category:
   - SpringCloud
-# 一个页面可以有多个标签
 tag:
   - 干货
   - SpringCloud
-# 此页面会在文章列表置顶
 sticky: false
-# 此页面会出现在星标文章中
 star: false
 ---
 

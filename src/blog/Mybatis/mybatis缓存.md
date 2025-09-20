@@ -1,21 +1,14 @@
 ---
 icon: file-lines
-# 标题
-title: 'mybatis缓存'
-# 设置作者
+title: mybatis缓存
 author: Ms.Zyh
-# 设置写作时间
-date: 2022-04-15
-# 一个页面可以有多个分类
+date: 2023-10-11
 category:
   - Mybatis
-# 一个页面可以有多个标签
 tag:
   - 必看
   - Mybatis
-# 此页面会在文章列表置顶
 sticky: false
-# 此页面会出现在星标文章中
 star: false
 ---
 

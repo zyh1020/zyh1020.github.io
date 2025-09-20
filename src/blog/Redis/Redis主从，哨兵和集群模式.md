@@ -1,21 +1,14 @@
 ---
 icon: file-lines
-# 标题
-title: 'Redis主从，哨兵和集群模式'
-# 设置作者
+title: Redis主从，哨兵和集群模式
 author: Ms.Zyh
-# 设置写作时间
-date: 2022-04-24
-# 一个页面可以有多个分类
+date: 2024-01-24
 category:
   - Redis
-# 一个页面可以有多个标签
 tag:
   - 推荐
   - Redis
-# 此页面会在文章列表置顶
 sticky: false
-# 此页面会出现在星标文章中
 star: false
 ---
 

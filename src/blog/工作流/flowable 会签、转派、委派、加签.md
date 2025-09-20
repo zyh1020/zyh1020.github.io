@@ -1,21 +1,14 @@
 ---
 icon: file-lines
-# 标题
-title: 'flowable 会签、转派、委派、加签'
-# 设置作者
+title: flowable 会签、转派、委派、加签
 author: Ms.Zyh
-# 设置写作时间
-date: 2022-05-23
-# 一个页面可以有多个分类
+date: 2022-09-02
 category:
   - 工作流
-# 一个页面可以有多个标签
 tag:
   - 推荐
   - 工作流
-# 此页面会在文章列表置顶
 sticky: false
-# 此页面会出现在星标文章中
 star: false
 ---
 

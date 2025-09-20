@@ -1,21 +1,14 @@
 ---
 icon: file-lines
-# 标题
-title: 'JMM模型'
-# 设置作者
+title: JMM模型
 author: Ms.Zyh
-# 设置写作时间
-date: 2022-05-03
-# 一个页面可以有多个分类
+date: 2022-06-13
 category:
   - 多线程
-# 一个页面可以有多个标签
 tag:
   - 常用
   - 多线程
-# 此页面会在文章列表置顶
 sticky: false
-# 此页面会出现在星标文章中
 star: false
 ---
 

@@ -1,21 +1,14 @@
 ---
 icon: file-lines
-# 标题
-title: 'TCP三次握手'
-# 设置作者
+title: TCP三次握手
 author: Ms.Zyh
-# 设置写作时间
-date: 2022-05-26
-# 一个页面可以有多个分类
+date: 2023-07-03
 category:
   - Java
-# 一个页面可以有多个标签
 tag:
   - 干货
   - Java
-# 此页面会在文章列表置顶
 sticky: false
-# 此页面会出现在星标文章中
 star: false
 ---
 

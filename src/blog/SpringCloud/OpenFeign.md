@@ -1,21 +1,14 @@
 ---
 icon: file-lines
-# 标题
-title: 'OpenFeign'
-# 设置作者
+title: OpenFeign
 author: Ms.Zyh
-# 设置写作时间
-date: 2022-05-08
-# 一个页面可以有多个分类
+date: 2025-04-08
 category:
   - SpringCloud
-# 一个页面可以有多个标签
 tag:
   - 常用
   - SpringCloud
-# 此页面会在文章列表置顶
 sticky: false
-# 此页面会出现在星标文章中
 star: false
 ---
 

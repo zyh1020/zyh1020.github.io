@@ -1,21 +1,14 @@
 ---
 icon: file-lines
-# 标题
-title: 'mysql的索引'
-# 设置作者
+title: mysql的索引
 author: Ms.Zyh
-# 设置写作时间
-date: 2022-04-19
-# 一个页面可以有多个分类
+date: 2023-11-16
 category:
   - mysql
-# 一个页面可以有多个标签
 tag:
   - 干货
   - mysql
-# 此页面会在文章列表置顶
 sticky: false
-# 此页面会出现在星标文章中
 star: false
 ---
 

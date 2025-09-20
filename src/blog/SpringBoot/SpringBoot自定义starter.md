@@ -1,22 +1,15 @@
 ---
 icon: file-lines
-# 标题
-title: 'SpringBoot自定义starter'
-# 设置作者
+title: SpringBoot自定义starter
 author: Ms.Zyh
-# 设置写作时间
-date: 2022-05-02
-# 一个页面可以有多个分类
+date: 2024-03-02
 category:
   - SpringBoot
-# 一个页面可以有多个标签
 tag:
   - 常用
   - SpringBoot
-# 此页面会在文章列表置顶
 sticky: false
-# 此页面会出现在星标文章中
-star: false
+star: true
 ---
 
 在一个空Maven项目中，新增`xxxx-spring-boot-starter`和`xxxx-spring-boot-autoconfigure`两个模块，`xxxx`是你这个starter是做什么的，模块`xxxx-spring-boot-starter`主要是作依赖管理，外界使用我们自定义的starter只需要导入我们`xxxx-spring-boot-starter`模块即可。自定义的`xxxx-spring-boot-autoconfigure`模块，是我们编写自动注入的地方，需要引入了Spring的`spring-boot-starter`模块，这个模块在创建SpringBoot项目的时候会自动引入的，也是必须引入的，通过加载META-INF文件夹下的spring.factories文件完成自动配置的功能以及开箱即用的效果。

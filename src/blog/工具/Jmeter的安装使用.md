@@ -1,21 +1,14 @@
 ---
 icon: file-lines
-# 标题
-title: 'Jmeter的安装使用'
-# 设置作者
+title: Jmeter的安装使用
 author: Ms.Zyh
-# 设置写作时间
-date: 2022-05-20
-# 一个页面可以有多个分类
+date: 2022-07-05
 category:
   - 工具
-# 一个页面可以有多个标签
 tag:
   - 基础
   - 工具
-# 此页面会在文章列表置顶
 sticky: false
-# 此页面会出现在星标文章中
 star: false
 ---
 

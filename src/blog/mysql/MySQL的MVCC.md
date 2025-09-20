@@ -1,22 +1,15 @@
 ---
 icon: file-lines
-# 标题
-title: 'MySQL的MVCC'
-# 设置作者
+title: MySQL的MVCC
 author: Ms.Zyh
-# 设置写作时间
-date: 2022-05-13
-# 一个页面可以有多个分类
+date: 2023-12-01
 category:
   - mysql
-# 一个页面可以有多个标签
 tag:
   - 偏僻
   - mysql
-# 此页面会在文章列表置顶
 sticky: false
-# 此页面会出现在星标文章中
-star: false
+star: true
 ---
 
 ### 一，MySQL的MVCC

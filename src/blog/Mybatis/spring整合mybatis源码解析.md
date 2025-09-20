@@ -1,21 +1,14 @@
 ---
 icon: file-lines
-# 标题
-title: 'spring整合mybatis源码解析'
-# 设置作者
+title: spring整合mybatis源码解析
 author: Ms.Zyh
-# 设置写作时间
-date: 2022-04-25
-# 一个页面可以有多个分类
+date: 2023-10-30
 category:
   - Mybatis
-# 一个页面可以有多个标签
 tag:
   - 常用
   - Mybatis
-# 此页面会在文章列表置顶
 sticky: false
-# 此页面会出现在星标文章中
 star: false
 ---
 

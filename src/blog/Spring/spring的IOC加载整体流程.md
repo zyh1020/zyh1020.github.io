@@ -1,21 +1,14 @@
 ---
 icon: file-lines
-# 标题
-title: 'spring的IOC加载整体流程'
-# 设置作者
+title: spring的IOC加载整体流程
 author: Ms.Zyh
-# 设置写作时间
-date: 2022-05-17
-# 一个页面可以有多个分类
+date: 2024-02-12
 category:
   - Spring
-# 一个页面可以有多个标签
 tag:
   - 基础
   - Spring
-# 此页面会在文章列表置顶
 sticky: false
-# 此页面会出现在星标文章中
 star: false
 ---
 

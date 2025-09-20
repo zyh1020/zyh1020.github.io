@@ -1,21 +1,14 @@
 ---
 icon: file-lines
-# 标题
-title: 'nacos的安装'
-# 设置作者
+title: nacos的安装
 author: Ms.Zyh
-# 设置写作时间
-date: 2022-05-29
-# 一个页面可以有多个分类
+date:
 category:
   - SpringCloud
-# 一个页面可以有多个标签
 tag:
   - 必看
   - SpringCloud
-# 此页面会在文章列表置顶
 sticky: false
-# 此页面会出现在星标文章中
 star: false
 ---
 

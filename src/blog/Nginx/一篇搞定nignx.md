@@ -1,21 +1,14 @@
 ---
 icon: file-lines
-# 标题
-title: '一篇搞定nignx'
-# 设置作者
+title: 一篇搞定nignx
 author: Ms.Zyh
-# 设置写作时间
-date: 2022-04-14
-# 一个页面可以有多个分类
+date: 2023-12-26
 category:
   - Nginx
-# 一个页面可以有多个标签
 tag:
   - 进阶
   - Nginx
-# 此页面会在文章列表置顶
 sticky: false
-# 此页面会出现在星标文章中
 star: false
 ---
 

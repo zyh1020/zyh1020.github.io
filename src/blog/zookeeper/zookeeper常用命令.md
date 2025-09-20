@@ -1,21 +1,14 @@
 ---
 icon: file-lines
-# 标题
-title: 'zookeeper常用命令'
-# 设置作者
+title: zookeeper常用命令
 author: Ms.Zyh
-# 设置写作时间
-date: 2022-04-10
-# 一个页面可以有多个分类
+date: 2022-10-21
 category:
   - zookeeper
-# 一个页面可以有多个标签
 tag:
   - 必看
   - zookeeper
-# 此页面会在文章列表置顶
 sticky: false
-# 此页面会出现在星标文章中
 star: false
 ---
 

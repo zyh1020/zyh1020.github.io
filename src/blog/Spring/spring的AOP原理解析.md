@@ -1,21 +1,14 @@
 ---
 icon: file-lines
-# 标题
-title: 'spring的AOP原理解析'
-# 设置作者
+title: spring的AOP原理解析
 author: Ms.Zyh
-# 设置写作时间
-date: 2022-05-07
-# 一个页面可以有多个分类
+date: 2024-05-07
 category:
   - Spring
-# 一个页面可以有多个标签
 tag:
   - 必看
   - Spring
-# 此页面会在文章列表置顶
 sticky: false
-# 此页面会出现在星标文章中
 star: false
 ---
 

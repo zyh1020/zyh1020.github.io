@@ -1,21 +1,14 @@
 ---
 icon: file-lines
-# 标题
-title: '云服务器MySQL数据自动备份到七牛云'
-# 设置作者
+title: 云服务器MySQL数据自动备份到七牛云
 author: Ms.Zyh
-# 设置写作时间
-date: 2022-05-07
-# 一个页面可以有多个分类
+date: 2023-11-02
 category:
   - mysql
-# 一个页面可以有多个标签
 tag:
   - 常用
   - mysql
-# 此页面会在文章列表置顶
 sticky: false
-# 此页面会出现在星标文章中
 star: false
 ---
 

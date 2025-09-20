@@ -1,21 +1,14 @@
 ---
 icon: file-lines
-# 标题
-title: 'Redis持久化'
-# 设置作者
+title: Redis持久化
 author: Ms.Zyh
-# 设置写作时间
-date: 2022-05-21
-# 一个页面可以有多个分类
+date: 2024-05-21
 category:
   - Redis
-# 一个页面可以有多个标签
 tag:
   - 进阶
   - Redis
-# 此页面会在文章列表置顶
 sticky: false
-# 此页面会出现在星标文章中
 star: false
 ---
 

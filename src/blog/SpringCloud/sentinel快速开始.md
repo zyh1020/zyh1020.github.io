@@ -1,21 +1,14 @@
 ---
 icon: file-lines
-# 标题
-title: 'sentinel快速开始'
-# 设置作者
+title: sentinel快速开始
 author: Ms.Zyh
-# 设置写作时间
-date: 2022-05-16
-# 一个页面可以有多个分类
+date: 2025-03-16
 category:
   - SpringCloud
-# 一个页面可以有多个标签
 tag:
   - 基础
   - SpringCloud
-# 此页面会在文章列表置顶
 sticky: false
-# 此页面会出现在星标文章中
 star: false
 ---
 
